@@ -1,0 +1,361 @@
+@import url("https://fonts.googleapis.com/css2?family=Bayon&family=Chango&family=Koulen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Changa:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Changa:wght@300&family=Palanquin:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1a1530;
+}
+
+h1 {
+  color: #b49900;
+  text-transform: uppercase;
+  font-family: "Chango", cursive;
+  text-align: center;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.square {
+  background-color: #b49900;
+  width: 150px;
+  height: 150px;
+  margin-left: 7px;
+  margin-top: 18px;
+}
+
+.photo2 {
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+  margin-left: 20px;
+  position: absolute;
+  border: 1px solid #b49900;
+  box-shadow: 2px 2px 8px 4px #1a1530;
+}
+
+.name-desc {
+  width: 170px;
+  margin-right: 5px;
+}
+
+.resume h3 {
+  color: #ffff;
+  text-transform: uppercase;
+  font-family: "Palanquin", sans-serif;
+  text-align: center;
+  margin-bottom: 10px;
+  line-height: 20px;
+}
+
+.resume p {
+  color: #ffff;
+  font-family: "Palanquin", sans-serif;
+  font-size: 14px;
+}
+
+.download {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  margin-top: -20px;
+  margin-left: -90px;
+  background-color: ;
+}
+
+.fa-file-arrow-down {
+  background-color: #1a1530;
+  color: #b49900;
+  font-size: 20px;
+}
+
+/*------------------Eduacation------------------*/
+.education {
+  padding: 10px;
+}
+.education h3 {
+  text-transform: uppercase;
+  color: #ffff;
+  font-family: "Palanquin", sans-serif;
+  margin-bottom: 10px;
+  line-height: 20px;
+  margin-top: 10px;
+  text-align: left;
+}
+
+table {
+  display: flex;
+  flex-direction: column;
+}
+.date {
+  color: #ffff;
+  font-family: "Palanquin", sans-serif;
+  font-size: 14px;
+  width: 100px;
+  text-align: center;
+}
+
+.title {
+  color: #ffff;
+  font-family: "Palanquin", sans-serif;
+  font-size: 14px;
+  width: 200px;
+}
+
+.institution {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #b49900;
+}
+
+/*----------------SKILLS---------------*/
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+}
+
+label {
+  color: #ffff;
+  font-family: "Palanquin", sans-serif;
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+progress {
+  width: 240px;
+  height: 20px;
+  margin-left: 50px;
+}
+
+label i {
+  font-size: 20px;
+}
+
+.fa-node {
+  background-color: #ffff;
+  color: green;
+}
+
+.fa-js {
+  color: #b49900;
+}
+
+.fa-react {
+  color: #008393;
+}
+
+.fa-html5 {
+  color: orangered;
+  background-color: #ffff;
+}
+
+.fa-css3-alt {
+  color: #004edd;
+  background-color: #ffff;
+}
+
+@media only screen and (min-width: 720px) {
+  h1 {
+    margin-top: -10px;
+    margin-bottom: 30px;
+    font-size: 48px;
+  }
+
+  .description {
+    padding: 10px;
+  }
+
+  .square {
+    width: 250px;
+    height: 250px;
+    margin-left: 12px;
+    margin-top: 22px;
+  }
+
+  .photo2 {
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    margin-left: 36px;
+    position: absolute;
+  }
+
+  .name-desc {
+    width: 380px;
+    margin-right: 15px;
+  }
+
+  .resume h3 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    line-height: 42px;
+  }
+
+  .resume p {
+    font-size: 24px;
+  }
+
+  .download {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    margin-top: -20px;
+    margin-left: -200px;
+  }
+
+  .fa-file-arrow-down {
+    font-size: 30px;
+  }
+
+  /*------------------Eduacation------------------*/
+  .education {
+    padding: 20px;
+  }
+  .education h3 {
+    margin-bottom: 20px;
+    font-size: 40px;
+  }
+
+  table {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+  }
+  .date {
+    font-size: 22px;
+    width: 150px;
+  }
+
+  .title {
+    font-size: 22px;
+    width: 360px;
+  }
+
+  .institution {
+    width: 90px;
+    height: 80px;
+  }
+
+  /*----------------SKILLS---------------*/
+
+  .title-skills {
+    margin-top: 30px;
+  }
+
+  .skills {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: 90%;
+  }
+
+  label {
+    font-size: 22px;
+    margin-left: 30px;
+  }
+
+  progress {
+    width: 240px;
+    height: 30px;
+    margin-left: 50px;
+  }
+
+  label i {
+    font-size: 30px;
+  }
+
+  #node {
+    width: 100%;
+  }
+  #js {
+    width: 100%;
+  }
+  #react {
+    width: 100%;
+  }
+  #html {
+    width: 100%;
+  }
+  #css {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  h1 {
+    font-size: 56px;
+  }
+
+  .description {
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+
+  .square {
+    width: 300px;
+    height: 300px;
+    margin-left: 12px;
+    margin-top: 22px;
+  }
+
+  .photo2 {
+    width: 300px;
+    height: 300px;
+  }
+
+  .name-desc {
+    width: 420px;
+    margin-right: 15px;
+  }
+
+  .resume h3 {
+    font-size: 38px;
+    margin-bottom: 20px;
+    line-height: 42px;
+  }
+
+  .resume p {
+    font-size: 26px;
+  }
+
+  /*------------------Eduacation------------------*/
+
+  .education h3 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    margin-left: 50px;
+  }
+
+  table {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+  }
+  .date {
+    font-size: 22px;
+    width: 150px;
+  }
+
+  .title {
+    font-size: 22px;
+    width: 80vw;
+  }
+
+  .institution {
+    width: 90px;
+    height: 80px;
+  }
+}

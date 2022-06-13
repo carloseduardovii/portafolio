@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Bayon&family=Chango&family=Koulen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Changa:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.menu ul li {
+  text-decoration: none;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #b49900;
+  font-size: 14px;
+  padding: 1px 5px;
+  font-family: "Changa", sans-serif;
+  border-bottom: 2px solid #b49900;
+  box-shadow: 1px 3px 3px rgb(0, 0, 0, 0.3);
+}
+
+.menu ul li a:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1e1926;
+  padding: 2px;
+  width: 60px;
+  height: 40px;
+  line-height: 15px;
+  border-radius: 2px;
+  text-align: center;
+}
+
+nav .menu :active {
+  background: #b49900;
+}
+
+@media only screen and (min-width: 720px) {
+  nav {
+    height: 50px;
+  }
+
+  .menu ul li a {
+    font-size: 22px;
+    padding: 5px 10px;
+  }
+
+  .menu ul li a:hover {
+    padding: 5px;
+    width: 120px;
+    height: 50px;
+    line-height: 25px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+}

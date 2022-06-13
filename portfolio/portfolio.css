@@ -1,0 +1,484 @@
+@import url("https://fonts.googleapis.com/css2?family=Bayon&family=Chango&family=Koulen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Changa:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Changa:wght@300&family=Palanquin:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1a1530;
+}
+
+h1 {
+  color: #b49900;
+  text-transform: uppercase;
+  font-family: "Chango", cursive;
+  text-align: center;
+  margin-top: -20px;
+  font-size: 36px;
+}
+
+.rectangle {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+
+.square-p1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: red;
+  box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.3);
+  width: 95%;
+  height: 150px;
+  transform: rotate(-5deg);
+}
+
+.proyect1 {
+  background-image: url("/Assets/proyects/PokemonApp.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+  border: 1px solid red;
+  box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.3);
+  transform: rotate(5deg);
+  z-index: 10;
+}
+
+.description1 {
+  width: 170px;
+  font-family: "Palanquin", sans-serif;
+  line-height: 20px;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.square-p2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0073eb;
+  box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.3);
+  width: 95%;
+  height: 150px;
+  margin-top: 30px;
+  transform: rotate(1deg);
+}
+
+.description2 {
+  width: 170px;
+  font-family: "Palanquin", sans-serif;
+  line-height: 20px;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.proyect2 {
+  background-image: url("/Assets/proyects/TecnoserviceApi.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+  margin-left: -25px;
+  margin-top: -0px;
+  border: 1px solid #0073eb;
+  box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.3);
+  transform: rotate(-5deg);
+}
+
+.proyect3 {
+  background-image: url("/Assets/proyects/PokemonApp.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+  margin-top: 20px;
+  border: 1px solid green;
+  box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.3);
+  transform: rotate(-7deg);
+}
+.square-p3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: green;
+  box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.3);
+  width: 95%;
+  height: 150px;
+  margin-top: 20px;
+  transform: rotate(-1deg);
+}
+
+.description3 {
+  width: 170px;
+  font-family: "Palanquin", sans-serif;
+  line-height: 20px;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.square-p4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: orangered;
+  box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.3);
+  width: 95%;
+  height: 150px;
+  margin-top: 20px;
+  transform: rotate(-3deg);
+}
+
+.description4 {
+  width: 170px;
+  font-family: "Palanquin", sans-serif;
+  line-height: 20px;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.proyect4 {
+  background-image: url("/Assets/proyects/RickandMortyApp.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+  margin-left: -25px;
+  margin-top: 10px;
+  border: 1px solid orangered;
+  box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.3);
+  transform: rotate(3deg);
+}
+
+@media only screen and (min-width: 720px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  .rectangle {
+    height: 200px;
+    margin-bottom: 20px;
+  }
+
+  .square-p1 {
+    width: 90%;
+    height: 200px;
+  }
+
+  /*-------------------RED-------------------*/
+  .proyect1 {
+    width: 250px;
+    height: 200px;
+    box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.5);
+    margin-left: 10px;
+  }
+
+  .description1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 300px;
+    height: 200px;
+    font-family: "Palanquin", sans-serif;
+    line-height: 20px;
+    margin-right: 30px;
+    padding: 10px;
+  }
+
+  .description1 h5 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  .description1 h6 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .description1 p {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  /*------------------BLUE-----------------*/
+  .square-p2 {
+    width: 90%;
+    height: 200px;
+  }
+
+  .description2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 300px;
+    height: 200px;
+    font-family: "Palanquin", sans-serif;
+    line-height: 20px;
+    margin-left: 30px;
+    padding: 10px;
+  }
+
+  .proyect2 {
+    width: 250px;
+    height: 200px;
+    box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.5);
+    margin-left: 10px;
+  }
+
+  .description2 h5 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  .description2 h6 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .description2 p {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  /*------------------GREEN-----------------*/
+  .proyect3 {
+    width: 250px;
+    height: 200px;
+    box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.5);
+    margin-left: 10px;
+  }
+
+  .square-p3 {
+    width: 90%;
+    height: 200px;
+    margin-top: 30px;
+  }
+
+  .description3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 300px;
+    height: 200px;
+    font-family: "Palanquin", sans-serif;
+    line-height: 20px;
+    margin-right: 30px;
+    padding: 10px;
+  }
+
+  .description3 h5 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  .description3 h6 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .description3 p {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  /*-----------------ORANGE-----------------*/
+  .square-p4 {
+    width: 90%;
+    height: 200px;
+    margin-top: 45px;
+  }
+
+  .description4 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 300px;
+    height: 200px;
+    font-family: "Palanquin", sans-serif;
+    line-height: 20px;
+    margin-left: 30px;
+    padding: 10px;
+  }
+
+  .proyect4 {
+    width: 250px;
+    height: 200px;
+    box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.5);
+    margin-left: 10px;
+  }
+
+  .description4 h5 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  .description4 h6 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .description4 p {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  h1 {
+    font-size: 56px;
+  }
+
+  .rectangle {
+    height: 200px;
+    margin-bottom: 20px;
+  }
+
+  .square-p1 {
+    width: 85%;
+    height: 220px;
+    margin-bottom: 70px;
+  }
+
+  /*-------------------RED-------------------*/
+  .proyect1 {
+    width: 280px;
+    height: 220px;
+    margin-left: 20px;
+  }
+
+  .description1 {
+    width: 400px;
+    height: 200px;
+    line-height: 20px;
+    margin-right: 30px;
+  }
+
+  .description1 h5 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .description1 h6 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .description1 p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  /*------------------BLUE-----------------*/
+  .square-p2 {
+    width: 85%;
+    height: 220px;
+    margin-top: 50px;
+  }
+
+  .description2 {
+    width: 400px;
+    height: 200px;
+    line-height: 20px;
+    margin-left: 30px;
+  }
+
+  .proyect2 {
+    width: 280px;
+    height: 220px;
+    margin-right: 20px;
+  }
+
+  .description2 h5 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .description2 h6 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .description2 p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  /*------------------GREEN-----------------*/
+  .proyect3 {
+    width: 280px;
+    height: 220px;
+    margin-left: 20px;
+  }
+
+  .square-p3 {
+    width: 85%;
+    height: 220px;
+    margin-top: 70px;
+  }
+
+  .description3 {
+    width: 400px;
+    height: 200px;
+    line-height: 20px;
+    margin-right: 30px;
+  }
+
+  .description3 h5 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .description3 h6 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .description3 p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  /*-----------------ORANGE-----------------*/
+  .square-p4 {
+    width: 85%;
+    height: 220px;
+    margin-top: 100px;
+  }
+
+  .description4 {
+    width: 400px;
+    height: 200px;
+    line-height: 20px;
+    margin-left: 30px;
+  }
+
+  .proyect4 {
+    width: 280px;
+    height: 220px;
+    margin-right: 20px;
+  }
+
+  .description4 h5 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .description4 h6 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .description4 p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}

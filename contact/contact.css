@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=Bayon&family=Chango&family=Koulen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Changa:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Changa:wght@300&family=Palanquin:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1a1530;
+}
+
+h1 {
+  color: #b49900;
+  text-transform: uppercase;
+  font-family: "Chango", cursive;
+  text-align: center;
+  margin-top: -20px;
+  margin-bottom: 50px;
+  font-size: 40px;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  height: 130px;
+}
+
+.square-phone {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 250px;
+  height: 120px;
+  background-color: green;
+  border-top-right-radius: 55px;
+  border-bottom-right-radius: 55px;
+  margin-left: -100px;
+}
+
+.square-phone:active {
+  margin-left: 0;
+  transition: 360ms;
+}
+.square-phone:hover {
+  transition: 360ms;
+}
+
+.icon-phone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+  height: 110px;
+  background-color: antiquewhite;
+  padding: 3px;
+  position: absolute;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+
+.fa-whatsapp-square {
+  font-size: 60px;
+  color: green;
+}
+
+.telegram {
+  display: flex;
+  align-items: center;
+  height: 130px;
+}
+
+.square-telegram {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 310px;
+  height: 120px;
+  background-color: #3a9cb8;
+  border-top-right-radius: 55px;
+  border-bottom-right-radius: 55px;
+  margin-left: -100px;
+}
+
+.square-telegram:active {
+  margin-left: 0;
+  transition: 360ms;
+}
+.square-telegram:hover {
+  transition: 360ms;
+}
+
+.icon-telegram {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+  height: 110px;
+  background-color: antiquewhite;
+  padding: 3px;
+  position: absolute;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+
+.fa-telegram {
+  font-size: 60px;
+  color: #3a9cb8;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+  height: 130px;
+}
+
+.square-email {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 330px;
+  height: 120px;
+  background-color: red;
+  border-top-right-radius: 55px;
+  border-bottom-right-radius: 55px;
+  margin-left: -60px;
+}
+
+.square-email:active {
+  margin-left: 0;
+  transition: 360ms;
+}
+.square-email:hover {
+  transition: 360ms;
+}
+
+.icon-email {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+  height: 110px;
+  background-color: antiquewhite;
+  padding: 3px;
+  position: absolute;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+
+.fa-envelope {
+  font-size: 60px;
+  color: #f20000;
+  text-decoration: none;
+}
+
+.icon-email p:hover {
+  font-size: 16px;
+}
+
+.icon-email p:active {
+  font-size: 16px;
+}
+
+.linkedin {
+  display: flex;
+  align-items: center;
+  height: 130px;
+}
+
+.square-linkedin {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 370px;
+  height: 120px;
+  background-color: #0066c4;
+  border-top-right-radius: 55px;
+  border-bottom-right-radius: 55px;
+  margin-left: -40px;
+}
+
+.square-linkedin:active {
+  margin-left: 0;
+  transition: 360ms;
+}
+.square-linkedin:hover {
+  transition: 360ms;
+}
+
+.icon-linkedin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+  height: 110px;
+  background-color: antiquewhite;
+  padding: 3px;
+  position: absolute;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+
+.fa-linkedin {
+  font-size: 60px;
+  color: #008aff;
+}
+
+@media only screen and (min-width: 720px) {
+  .phone {
+    height: 140px;
+  }
+
+  .square-phone {
+    width: 310px;
+    height: 130px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+  }
+
+  .icon-phone {
+    width: 120px;
+    height: 120px;
+  }
+
+  .telegram {
+    height: 140px;
+  }
+
+  .square-telegram {
+    width: 310px;
+    height: 130px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    width: 50%;
+  }
+
+  .icon-telegram {
+    width: 120px;
+    height: 120px;
+  }
+
+  .email {
+    height: 140px;
+  }
+
+  .square-email {
+    width: 310px;
+    height: 130px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    width: 60%;
+  }
+
+  .icon-email {
+    width: 120px;
+    height: 120px;
+  }
+
+  .linkedin {
+    height: 140px;
+  }
+
+  .square-linkedin {
+    width: 310px;
+    height: 130px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    width: 70%;
+  }
+
+  .icon-linkedin {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  h1 {
+    font-size: 56px;
+  }
+
+  .square-phone {
+    width: 360px;
+    height: 130px;
+  }
+}
