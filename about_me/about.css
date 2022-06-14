@@ -30,13 +30,29 @@ p {
   font-family: "Palanquin", sans-serif;
 }
 
-div img {
+.i-drum {
   margin-top: 20px;
   width: 350px;
   margin-left: -50px;
   position: absolute;
   border: 1px solid #b49900;
   box-shadow: 4px 2px 8px 4px #1a1530;
+}
+
+.i-drum {
+  animation: movement 5.5s linear infinite;
+}
+
+@keyframes movement {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(20px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 .form {
