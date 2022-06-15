@@ -30,20 +30,38 @@ p {
   font-family: "Palanquin", sans-serif;
 }
 
+.about-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container-i-drum {
+  margin-bottom: 40px;
+}
+
 .i-drum {
-  margin-top: 20px;
-  width: 350px;
-  margin-left: -50px;
+  margin-top: 40px;
+  width: 300px;
   position: absolute;
   border: 1px solid #b49900;
   box-shadow: 4px 2px 8px 4px #1a1530;
+  transform: rotate(-7deg);
+}
+
+.form-drum {
+  background-color: #b49900;
+  width: 260px;
+  height: 220px;
+  margin-left: 30px;
 }
 
 .i-drum {
   animation: movement 5.5s linear infinite;
 }
 
-@keyframes movement {
+/* @keyframes movement {
   0% {
     transform: translateX(0);
   }
@@ -53,13 +71,25 @@ p {
   100% {
     transform: translateX(0);
   }
+} */
+
+.i-sofa {
+  margin-top: -280px;
+  margin-left: 50px;
+  width: 250px;
+  position: absolute;
+  border: 1px solid #005b94;
+  box-shadow: 4px 2px 8px 4px #1a1530;
+  transform: rotate(3deg);
 }
 
-.form {
-  background-color: #b49900;
+.form-sofa {
+  background-color: #005b94;
+  margin-top: 30px;
   width: 240px;
-  height: 240px;
-  margin-left: 110px;
+  height: 330px;
+  margin-left: 200px;
+  transform: rotate(3deg);
 }
 
 @media only screen and (min-width: 720px) {
@@ -73,24 +103,24 @@ p {
     font-size: 20px;
   }
 
-  div img {
-    margin-top: 40px;
-    width: 450px;
-    margin-left: -50px;
-    position: absolute;
-    border: 1px solid #b49900;
-    box-shadow: 4px 2px 8px 4px #1a1530;
+  .about-img {
+    justify-content: space-between;
   }
 
-  .form {
-    background-color: #b49900;
-    width: 340px;
-    height: 340px;
-    margin-left: 110px;
+  .i-drum {
+    margin-top: 40px;
+    width: 360px;
+    margin-left: -10px;
+  }
+
+  .form-drum {
+    width: 360px;
+    height: 260px;
+    margin-left: 10px;
     margin-top: 20px;
-    box-shadow: 4px 2px 8px 4px #1a1530;
   }
 }
+
 @media only screen and (min-width: 1024px) {
   h1 {
     font-size: 56px;
@@ -101,15 +131,28 @@ p {
     font-size: 26px;
   }
 
-  div img {
-    width: 550px;
+  .i-drum {
+    width: 480px;
+    margin-top: 50px;
   }
 
   .form {
-    width: 480px;
-    height: 400px;
     margin-left: 110px;
-    margin-top: 20px;
-    box-shadow: 4px 2px 8px 4px #1a1530;
+  }
+
+  .form-drum {
+    width: 480px;
+    height: 360px;
+  }
+
+  .i-sofa {
+    margin-top: -400px;
+    margin-left: 50px;
+    width: 340px;
+  }
+
+  .form-sofa {
+    width: 340px;
+    height: 480px;
   }
 }

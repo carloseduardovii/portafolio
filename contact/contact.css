@@ -31,7 +31,7 @@ h1 {
   display: flex;
   justify-content: end;
   align-items: center;
-  width: 250px;
+  width: 270px;
   height: 120px;
   background-color: green;
   border-top-right-radius: 55px;
@@ -216,10 +216,11 @@ h1 {
   }
 
   .square-phone {
-    width: 310px;
+    width: 500px;
     height: 130px;
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
+    margin-left: -300px;
   }
 
   .icon-phone {
@@ -232,11 +233,11 @@ h1 {
   }
 
   .square-telegram {
-    width: 310px;
+    width: 500px;
     height: 130px;
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
-    width: 50%;
+    margin-left: -180px;
   }
 
   .icon-telegram {
@@ -249,11 +250,11 @@ h1 {
   }
 
   .square-email {
-    width: 310px;
+    width: 500px;
     height: 130px;
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
-    width: 60%;
+    margin-left: -60px;
   }
 
   .icon-email {
@@ -266,11 +267,11 @@ h1 {
   }
 
   .square-linkedin {
-    width: 310px;
+    width: 600px;
     height: 130px;
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
-    width: 70%;
+    margin-left: -40px;
   }
 
   .icon-linkedin {
@@ -280,12 +281,29 @@ h1 {
 }
 
 @media only screen and (min-width: 1024px) {
-  h1 {
-    font-size: 56px;
+  .square-phone {
+    width: 600px;
+    height: 130px;
+    margin-left: -400px;
   }
 
-  .square-phone {
-    width: 360px;
-    height: 130px;
+  .square-telegram {
+    width: 600px;
+    margin-left: -260px;
+  }
+
+  .square-email {
+    width: 600px;
+    margin-left: -120px;
+  }
+
+  .square-linkedin {
+    width: 800px;
+    margin-left: -180px;
+  }
+
+  .icon-linkedin {
+    width: 120px;
+    height: 120px;
   }
 }
