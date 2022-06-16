@@ -41,6 +41,9 @@ head {
   margin-right: 50px;
   object-fit: cover;
   transform: rotate(-5deg);
+  background-color: #b49900;
+  mix-blend-mode: multiply;
+  filter: grayscale(20%);
 }
 
 .profile-rectangle {
@@ -149,11 +152,6 @@ h4 {
   width: 130px;
   border-radius: 2%;
   box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
-  transition: all 300ms;
-}
-
-.carrousel img:hover {
-  transform: scale(1.2);
   transition: all 300ms;
 }
 

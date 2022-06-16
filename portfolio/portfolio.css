@@ -50,6 +50,11 @@ h1 {
   z-index: 10;
 }
 
+.proyect1:hover {
+  transform: scale(1.2);
+  transition: all 300ms;
+}
+
 .description1 {
   width: 170px;
   font-family: "Palanquin", sans-serif;
@@ -91,6 +96,10 @@ h1 {
   transform: rotate(-5deg);
 }
 
+.proyect2:hover {
+  transform: scale(1.2);
+  transition: all 300ms;
+}
 .proyect3 {
   background-image: url("/Assets/proyects/PokemonApp.jpg");
   background-size: cover;
@@ -102,6 +111,12 @@ h1 {
   box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.3);
   transform: rotate(-7deg);
 }
+
+.proyect3:hover {
+  transform: scale(1.2);
+  transition: all 300ms;
+}
+
 .square-p3 {
   display: flex;
   justify-content: space-between;
@@ -153,6 +168,11 @@ h1 {
   border: 1px solid orangered;
   box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.3);
   transform: rotate(3deg);
+}
+
+.proyect4:hover {
+  transform: scale(1.2);
+  transition: all 300ms;
 }
 
 @media only screen and (min-width: 720px) {

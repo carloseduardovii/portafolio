@@ -48,6 +48,9 @@ p {
   border: 1px solid #b49900;
   box-shadow: 4px 2px 8px 4px #1a1530;
   transform: rotate(-7deg);
+  background-color: #b49900;
+  mix-blend-mode: hard-light;
+  filter: grayscale(20%);
 }
 
 .form-drum {
@@ -60,18 +63,6 @@ p {
 .i-drum {
   animation: movement 5.5s linear infinite;
 }
-
-/* @keyframes movement {
-  0% {
-    transform: translateX(0);
-  }
-  50% {
-    transform: translateX(20px);
-  }
-  100% {
-    transform: translateX(0);
-  }
-} */
 
 .i-sofa {
   margin-top: -280px;

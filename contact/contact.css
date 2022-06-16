@@ -39,12 +39,10 @@ h1 {
   margin-left: -100px;
 }
 
-.square-phone:active {
-  margin-left: 0;
-  transition: 360ms;
-}
 .square-phone:hover {
-  transition: 360ms;
+  transform: scale(1.2);
+  transition: all 300ms;
+  box-shadow: 1px 2px 6px 8px rgba(0, 0, 0, 0.5);
 }
 
 .icon-phone {
@@ -59,6 +57,13 @@ h1 {
   position: absolute;
   margin-right: 5px;
   border-radius: 50%;
+}
+
+.icon-phone:hover {
+  transform: scale(1.1);
+  transition: all 300ms;
+  box-shadow: 1px 2px 6px 8px rgba(0, 0, 0, 0.5);
+  position: absolute;
 }
 
 .fa-whatsapp-square {
@@ -84,12 +89,10 @@ h1 {
   margin-left: -100px;
 }
 
-.square-telegram:active {
-  margin-left: 0;
-  transition: 360ms;
-}
 .square-telegram:hover {
-  transition: 360ms;
+  transform: scale(1.2);
+  transition: all 300ms;
+  box-shadow: 1px 2px 6px 8px rgba(0, 0, 0, 0.5);
 }
 
 .icon-telegram {
@@ -104,6 +107,12 @@ h1 {
   position: absolute;
   margin-right: 5px;
   border-radius: 50%;
+}
+
+.icon-telegram:hover {
+  transform: scale(1.1);
+  transition: all 300ms;
+  box-shadow: 1px 2px 6px 8px rgba(0, 0, 0, 0.5);
 }
 
 .fa-telegram {
@@ -129,12 +138,10 @@ h1 {
   margin-left: -60px;
 }
 
-.square-email:active {
-  margin-left: 0;
-  transition: 360ms;
-}
 .square-email:hover {
-  transition: 360ms;
+  transform: scale(1.2);
+  transition: all 300ms;
+  box-shadow: 1px 2px 6px 8px rgba(0, 0, 0, 0.5);
 }
 
 .icon-email {
@@ -151,18 +158,16 @@ h1 {
   border-radius: 50%;
 }
 
+.icon-email:hover {
+  transform: scale(1.1);
+  transition: all 300ms;
+  box-shadow: 1px 2px 6px 8px rgba(0, 0, 0, 0.5);
+}
+
 .fa-envelope {
   font-size: 60px;
   color: #f20000;
   text-decoration: none;
-}
-
-.icon-email p:hover {
-  font-size: 16px;
-}
-
-.icon-email p:active {
-  font-size: 16px;
 }
 
 .linkedin {
@@ -183,12 +188,10 @@ h1 {
   margin-left: -40px;
 }
 
-.square-linkedin:active {
-  margin-left: 0;
-  transition: 360ms;
-}
 .square-linkedin:hover {
-  transition: 360ms;
+  transform: scale(1.2);
+  transition: all 300ms;
+  box-shadow: 1px 2px 6px 8px rgba(0, 0, 0, 0.5);
 }
 
 .icon-linkedin {
@@ -203,6 +206,12 @@ h1 {
   position: absolute;
   margin-right: 5px;
   border-radius: 50%;
+}
+
+.icon-linkedin:hover {
+  transform: scale(1.1);
+  transition: all 300ms;
+  box-shadow: 1px 2px 6px 8px rgba(0, 0, 0, 0.5);
 }
 
 .fa-linkedin {
@@ -228,6 +237,10 @@ h1 {
     height: 120px;
   }
 
+  .icon-phone:hover {
+    transform: scale(1.2);
+  }
+
   .telegram {
     height: 140px;
   }
@@ -243,6 +256,10 @@ h1 {
   .icon-telegram {
     width: 120px;
     height: 120px;
+  }
+
+  .icon-telegram:hover {
+    transform: scale(1.2);
   }
 
   .email {
@@ -262,6 +279,10 @@ h1 {
     height: 120px;
   }
 
+  .icon-email:hover {
+    transform: scale(1.2);
+  }
+
   .linkedin {
     height: 140px;
   }
@@ -277,6 +298,10 @@ h1 {
   .icon-linkedin {
     width: 120px;
     height: 120px;
+  }
+
+  .icon-linkedin:hover {
+    transform: scale(1.2);
   }
 }
 
